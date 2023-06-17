@@ -17,39 +17,32 @@ export function Footer() {
         </p>
         <div className="w-full flex justify-between items-center md:justify-end md:gap-3">
           <div className="flex gap-3">
-            <SocialMedia
-              href="https://www.linkedin.com/in/hrodrigomota/"
-              children={
-                <Image
-                  src={linkedinLogo}
-                  alt="Logo LinkedIn"
-                  width={25}
-                  className="w-5 lg:w-6"
-                />
-              }
-            />
-            <SocialMedia
-              href="https://github.com/hrodrigomota/"
-              children={
-                <Image
-                  src={githubLogo}
-                  alt="Logo Github"
-                  width={25}
-                  className="w-5 lg:w-6"
-                />
-              }
-            />
-            <SocialMedia
-              href="https://www.instagram.com/hrodrigomota/"
-              children={
-                <Image
-                  src={instagramLogo}
-                  alt="Logo Instagram"
-                  width={25}
-                  className="w-5 lg:w-6"
-                />
-              }
-            />
+            <SocialMedia href="https://www.linkedin.com/in/hrodrigomota/">
+              <Image
+                src={linkedinLogo}
+                alt="Logo LinkedIn"
+                width={25}
+                className="w-5 lg:w-6"
+              />
+            </SocialMedia>
+
+            <SocialMedia href="https://github.com/hrodrigomota/">
+              <Image
+                src={githubLogo}
+                alt="Logo Github"
+                width={25}
+                className="w-5 lg:w-6"
+              />
+            </SocialMedia>
+
+            <SocialMedia href="https://www.instagram.com/hrodrigomota/">
+              <Image
+                src={instagramLogo}
+                alt="Logo Instagram"
+                width={25}
+                className="w-5 lg:w-6"
+              />
+            </SocialMedia>
           </div>
           <a href="#">
             <IconChevronsUp className="animate-bounce" />
