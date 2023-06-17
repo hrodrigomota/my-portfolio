@@ -125,7 +125,7 @@ export function Skills() {
             />
           </Tech>
         </div>
-        <a href="#projects" className="flex justify-center py-2 text-white">
+        <a href="#projects" className="flex justify-center py-2 pb-16 md:pb-0 text-white">
           <IconArrowDown className="animate-bounce" size={30} />
         </a>
       </div>

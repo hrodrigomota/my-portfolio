@@ -19,7 +19,7 @@ export default function Home() {
         >
           <div></div>
           <Presentation />
-          <a href="#about" className="flex justify-center py-2 pb-16">
+          <a href="#about" className="flex justify-center py-2 pb-16 md:pb-0">
             <IconArrowDown className="animate-bounce" size={30} />
           </a>
         </section>

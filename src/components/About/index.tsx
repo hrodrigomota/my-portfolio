@@ -45,7 +45,7 @@ export function About() {
             <CVButton className="mt-1 hover:bg-blue-800 hover:text-white self-center sm:self-start" />
           </div>
         </div>
-        <a href="#skills" className="flex justify-center py-2 text-blue-800">
+        <a href="#skills" className="flex justify-center py-2 pb-16 md:pb-0 text-blue-800">
           <IconArrowDown className="animate-bounce" size={30} />
         </a>
       </div>
