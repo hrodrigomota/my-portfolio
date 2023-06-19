@@ -21,7 +21,7 @@ import TypeScript from "../../../public/typescript.png";
 export function Skills() {
   return (
     <Page>
-      <div className="flex flex-col h-screen justify-between">
+      <div className="flex flex-col min-h-screen justify-between">
         <div>
           <h1 className="font-bold text-3xl text-center mt-12 md:mt-16 md:text-6xl md:text-left">
             HABILIDADES

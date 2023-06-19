@@ -9,7 +9,7 @@ import profilePhoto from "../../assets/profilePhoto.png";
 export function About() {
   return (
     <Page>
-      <div className="flex flex-col h-screen justify-between">
+      <div className="flex flex-col min-h-screen justify-between">
         <h1 className="font-bold text-3xl text-center mt-12 md:mt-16 md:text-6xl md:text-left text-blue-800 ">
           SOBRE
         </h1>

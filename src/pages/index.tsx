@@ -15,7 +15,7 @@ export default function Home() {
       <main className="flex flex-col">
         <section
           id="presentation"
-          className="bg-cover bg-[url('/abstract-blue-fractal-wave-technology-background.jpg')] text-white h-screen flex flex-col justify-between"
+          className="bg-cover bg-[url('/abstract-blue-fractal-wave-technology-background.jpg')] text-white min-h-screen flex flex-col justify-between"
         >
           <div></div>
           <Presentation />
