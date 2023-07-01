@@ -2,6 +2,7 @@ import { Page } from "../template/Page";
 import { Card } from "./Card";
 import { TechCard } from "./Card/TechCard";
 
+import ToDoDaily from "../../assets/toDoDaily.png";
 import StaartApp from "../../assets/staart-front-end-app.png";
 import ConsumingAPI from "../../assets/consumingAPI.png";
 import BooksSearch from "../../assets/booksSearch.png";
@@ -17,6 +18,24 @@ export function Projects() {
           PROJETOS
         </h1>
         <div className="flex flex-wrap justify-center gap-x-10 gap-y-6">
+          <Card
+            src={ToDoDaily}
+            alt="To Do Daily Screen"
+            href="https://to-do-daily.vercel.app/"
+            hrefRepo="https://github.com/hrodrigomota/to-do-daily"
+            name="To Do Daily"
+            description="O To Do Daily consiste em uma ferramenta que tem como propósito auxiliar na organização das tarefas do dia. Em formato CRUD, permite criar, editar e excluir atividades, bem como marcá-las como concluídas, apresentando um layout com tema claro ou escuro."
+          >
+            <TechCard href="https://react.dev/" name="React" />
+            <TechCard href="https://nextjs.org/" name="Next.js" />
+            <TechCard href="https://tailwindui.com/" name="Tailwind CSS" />
+            <TechCard
+              href="https://www.typescriptlang.org/"
+              name="TypeScript"
+            />
+            <TechCard href="https://tabler-icons.io/" name="Tabler-icons" />
+          </Card>
+
           <Card
             src={StaartApp}
             alt="Staart Front-end App Screen"

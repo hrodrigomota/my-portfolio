@@ -7,10 +7,22 @@ import { Skills } from "@/components/Skills";
 import { Projects } from "@/components/Projects";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Portfolio - Hilton Rodrigo</title>
+        <meta
+          name="description"
+          content="Portfolio Hilton Rodrigo - Desenvolvedor Front-end"
+        />
+        <meta
+          name="keywords"
+          content="Portfolio, Front-end"
+        />
+      </Head>
       <Header />
       <main className="flex flex-col">
         <section
