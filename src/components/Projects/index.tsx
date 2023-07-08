@@ -129,8 +129,8 @@ export function Projects() {
           <Card
             src={FlashApp}
             alt="Flash Screen"
-            href="https://hrodrigomota.github.io/Flash-quick-staart/"
-            hrefRepo="https://github.com/hrodrigomota/Flash-quick-staart"
+            href="https://hrodrigomota.github.io/flash/"
+            hrefRepo="https://github.com/hrodrigomota/flash"
             name="Flash"
             description="O Flash foi desenvolvido durante o evento Quick Staart da plataforma Staart. Em formato de quiz, visa testar o vocabulário técnico do desenvolvedor, onde, perguntas e respostas são recebidas através de uma API disponibilizada para a criação do projeto."
           >
@@ -152,8 +152,8 @@ export function Projects() {
           <Card
             src={DoctorCare}
             alt="DoctorCare Screen"
-            href="https://hrodrigomota.github.io/Rocketseat-NLW-Return-Origin/"
-            hrefRepo="https://github.com/hrodrigomota/Rocketseat-NLW-Return-Origin"
+            href="https://hrodrigomota.github.io/doctor-care/"
+            hrefRepo="https://github.com/hrodrigomota/doctor-care"
             name="DoctorCare"
             description="O DoctorCare foi desenvolvido durante o evento Next Level Week - NLW Return da plataforma Rocketseat. Consiste em uma página institucional, no formato “One Page”, que apresenta responsividade e pode ser usada como base para empresas de qualquer porte."
           >
