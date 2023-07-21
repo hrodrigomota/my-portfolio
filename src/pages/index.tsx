@@ -1,4 +1,7 @@
 import { IconArrowDown } from "@tabler/icons-react";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 
 import { Header } from "@/components/Header";
 import { Presentation } from "@/components/Presentation";
@@ -8,8 +11,14 @@ import { Projects } from "@/components/Projects";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import Head from "next/head";
+import { useEffect } from "react";
 
 export default function Home() {
+  
+  useEffect(() => {
+    AOS.init()
+  }, [])
+
   return (
     <>
       <Head>

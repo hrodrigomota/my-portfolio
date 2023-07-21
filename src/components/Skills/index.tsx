@@ -23,12 +23,12 @@ export function Skills() {
     <Page>
       <div className="flex flex-col min-h-screen justify-between">
         <div>
-          <h1 className="font-bold text-3xl text-center mt-12 md:mt-16 md:text-6xl md:text-left">
+          <h1 className="font-bold text-3xl text-center mt-12 md:mt-16 md:text-6xl md:text-left" data-aos="fade-right">
             HABILIDADES
           </h1>
         </div>
 
-        <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8 lg:gap-12">
+        <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8 lg:gap-12" data-aos="fade-up" data-aos-duration="1000">
           <Tech
             href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
             target="_blank"

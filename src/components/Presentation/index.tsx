@@ -21,7 +21,11 @@ export function Presentation() {
             Desenvolvedor Front-end
           </h2>
         </div>
-        <div className="w-40 flex justify-between">
+        <div
+          className="w-40 flex justify-between"
+          data-aos="fade-up"
+          data-aos-duration="500"
+        >
           <a href="https://www.linkedin.com/in/hrodrigomota/" target="_blank">
             <Image
               src={linkedinLogo}
@@ -50,7 +54,9 @@ export function Presentation() {
             />
           </a>
         </div>
-        <CVButton className="lg:hidden hover:bg-white hover:text-black" />
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <CVButton className="lg:hidden hover:bg-white hover:text-black" />
+        </div>
       </div>
     </Page>
   );

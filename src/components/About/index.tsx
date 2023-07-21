@@ -10,7 +10,7 @@ export function About() {
   return (
     <Page>
       <div className="flex flex-col min-h-screen justify-between">
-        <h1 className="font-bold text-3xl text-center mt-12 md:mt-16 md:text-6xl md:text-left text-blue-800 ">
+        <h1 className="font-bold text-3xl text-center mt-12 md:mt-16 md:text-6xl md:text-left text-blue-800" data-aos="fade-right">
           SOBRE
         </h1>
         <div className="flex flex-col items-center gap-5 md:gap-12 md:flex-row ">
@@ -20,8 +20,10 @@ export function About() {
             height={350}
             alt="Foto de Perfil"
             className="w-32 md:w-56 outline outline-1 outline-blue-800"
+            data-aos="flip-right"
+            data-aos-duration="1000"
           />
-          <div className="flex flex-col justify-between gap-5 text-xs md:h-[357px] md:text-sm lg:text-base">
+          <div className="flex flex-col justify-between gap-5 text-xs md:h-[357px] md:text-sm lg:text-base" data-aos="fade-up" data-aos-duration="1000">
             <p className="text-justify">
               Brasileiro, natural de Salvador-BA, tenho 32 anos. Sou Engenheiro
               Ambiental e, atualmente, me encontro em processo de transição de

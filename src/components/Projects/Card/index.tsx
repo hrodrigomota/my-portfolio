@@ -14,7 +14,7 @@ interface CardProps {
 
 export function Card(props: CardProps) {
   return (
-    <div className="w-64 border rounded-lg border-blue-800">
+    <div className="w-64 border rounded-lg border-blue-800" data-aos="fade-up" data-aos-duration="1000">
       <a
         href={props.href}
         target="_blank"

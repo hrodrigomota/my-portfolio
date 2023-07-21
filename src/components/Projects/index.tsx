@@ -14,7 +14,7 @@ export function Projects() {
   return (
     <Page>
       <div className="w-full pb-16">
-        <h1 className="font-bold text-blue-800 text-3xl text-center mt-12 md:mt-16 md:text-6xl md:text-left md:mb-12">
+        <h1 className="font-bold text-blue-800 text-3xl text-center mt-12 mb-8 md:mt-16 md:text-6xl md:text-left md:mb-12" data-aos="fade-right">
           PROJETOS
         </h1>
         <div className="flex flex-wrap justify-center gap-x-10 gap-y-6">
