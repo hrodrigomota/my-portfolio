@@ -17,6 +17,8 @@ import Bootstrap from "../../../public/bootstrap.png";
 import NextJS from "../../../public/nextjs.svg";
 import TailwindCSS from "../../../public/tailwind-css.png";
 import TypeScript from "../../../public/typescript.png";
+import Angular from "../../../public/angular.png";
+import CSharp from "../../../public/csharp.png";
 
 export function Skills() {
   return (
@@ -120,6 +122,32 @@ export function Skills() {
             <Image
               src={TypeScript}
               alt="Logo TypeScript"
+              width={30}
+              height={30}
+            />
+          </Tech>
+
+          <Tech
+            href="https://angular.io/"
+            target="_blank"
+            title="Angular"
+          >
+            <Image
+              src={Angular}
+              alt="Logo Angular"
+              width={30}
+              height={30}
+            />
+          </Tech>
+
+          <Tech
+            href="https://learn.microsoft.com/pt-br/dotnet/csharp/"
+            target="_blank"
+            title="C#"
+          >
+            <Image
+              src={CSharp}
+              alt="Logo C#"
               width={30}
               height={30}
             />

@@ -25,7 +25,7 @@ export function About() {
           />
           <div className="flex flex-col justify-between gap-5 text-xs md:h-[357px] md:text-sm lg:text-base" data-aos="fade-up" data-aos-duration="1000">
             <p className="text-justify">
-              Brasileiro, natural de Salvador-BA, tenho 32 anos. Sou Engenheiro
+              Brasileiro, natural de Salvador-BA, tenho 33 anos. Sou Engenheiro
               Ambiental e, atualmente, me encontro em processo de transição de
               carreira para a área tecnológica, com o propósito de me tornar um
               desenvolvedor front-end. A predisposição para aprender novas
@@ -36,8 +36,9 @@ export function About() {
             <div>
               <p className="font-bold text-blue-800">Cursos/Certificações:</p>
               <ul>
+                <li>Ímã Tech - Desenvolvimento Full Stack</li>
                 <li>
-                  One Bit Code - Desenvolvimento Full Stack (em andamento)
+                  One Bit Code - Desenvolvimento Full Stack
                 </li>
                 <li>Staart - Desenvolvimento Frontend</li>
                 <li>DIO - Bootcamp Orange Tech +</li>
