@@ -28,7 +28,7 @@ export function About() {
               Brasileiro, natural de Salvador-BA, tenho 33 anos. Sou Engenheiro
               Ambiental e, atualmente, me encontro em processo de transição de
               carreira para a área tecnológica, com o propósito de me tornar um
-              desenvolvedor front-end. A predisposição para aprender novas
+              Desenvolvedor Full Stack. A predisposição para aprender novas
               habilidades e superar desafios, características que, atrelado ao
               forte contato sempre existente com a tecnologia, me fizeram tomar
               a decisão de encarar essa nova jornada!
